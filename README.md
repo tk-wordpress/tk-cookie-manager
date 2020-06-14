@@ -106,14 +106,14 @@ To override templates, you can either...
 | `tk_cookie_manager/infobox/skin` | Fires before applying skin to the infobox. |
 | `tk_cookie_manager/infobox/headline` | Fires before applying headline to the infobox. |
 | `tk_cookie_manager/infobox/description` | Fires before applying description to the infobox. |
-| `tk_cookie_manager/infobox/cookieGroups` | Fires before applying cookie groups to the infobox. |
+| `tk_cookie_manager/infobox/cookie_groups` | Fires before applying cookie groups to the infobox. |
 | `tk_cookie_manager/infobox/privacy_policy_link` | Fires before applying value of privacy policy link to the infobox. |
 | `tk_cookie_manager/infobox/imprint_link` | Fires before applying value of imprint link to the infobox. |
 | `tk_cookie_manager/infobox/footer_links` | Fires before applying footer links to the infobox. |
 | `tk_cookie_manager/infobox/version` | Fires before applying version to the infobox. |
-| `tk_cookie_manager/infobox/cookieHtml` | Fires before applying cookie group HTML to the infobox. |
+| `tk_cookie_manager/infobox/cookie_html` | Fires before applying cookie group HTML to the infobox. |
 | `tk_cookie_manager/platforms` | Fires before returning available platforms. |
-| `tk_cookie_manager/shortcode/infobox-opener/label` | Fires before applying infobox opener label to the link. |
-| `tk_cookie_manager/shortcode/embedded-contents-table/platforms` | Fires before applying platforms to embedded contents table. |
+| `tk_cookie_manager/shortcode/infobox_opener/label` | Fires before applying infobox opener label to the link. |
+| `tk_cookie_manager/shortcode/embedded_contents_table/platforms` | Fires before applying platforms to embedded contents table. |
 | `tk_cookie_manager_template_variables` | Fires before the variables are applied to the template. |
 | `tk_cookie_manager_template_paths` | Fires before the template is searched in the paths. |

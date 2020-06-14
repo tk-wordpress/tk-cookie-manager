@@ -44,7 +44,7 @@ class Shortcodes
 		 *
 		 * @since 1.0.0
 		 */
-		$label = apply_filters('tk_cookie_manager/shortcode/infobox-opener/label', $label);
+		$label = apply_filters('tk_cookie_manager/shortcode/infobox_opener/label', $label);
 
 		return TemplateLoader::get(
 			'frontend/shortcodes/infobox-opener',
@@ -79,7 +79,7 @@ class Shortcodes
 		 * @since 1.0.0
 		 */
 		$platforms = apply_filters(
-			'tk_cookie_manager/shortcode/embedded-contents-table/platforms',
+			'tk_cookie_manager/shortcode/embedded_contents_table/platforms',
 			array_map('trim', explode(',', $attributes['platforms']))
 		);
 

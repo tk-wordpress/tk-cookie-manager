@@ -99,7 +99,7 @@ class Infobox
 		 * @since 1.0.0
 		 */
 		$cookieGroups = apply_filters(
-			'tk_cookie_manager/infobox/cookieGroups',
+			'tk_cookie_manager/infobox/cookie_groups',
 			$cookieGroups,
 			$this->settings
 		);
@@ -195,7 +195,7 @@ class Infobox
 		 *
 		 * @since 1.0.0
 		 */
-		$cookiegroupsHtml = apply_filters('tk_cookie_manager/infobox/cookieHtml', $cookiegroupsHtml, $this->settings);
+		$cookiegroupsHtml = apply_filters('tk_cookie_manager/infobox/cookie_html', $cookiegroupsHtml, $this->settings);
 
 		CookieManager\TemplateLoader::load(
 			'frontend/infobox',
