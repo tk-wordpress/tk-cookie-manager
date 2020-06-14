@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3.5 4" height="4mm" width="3.5mm">
+	<defs>
+		<style type="text/css">
+			g * {
+				fill-opacity: 1;
+				stroke: none;
+			}
+			.handle {
+				fill: none;
+				stroke: #cdcdcc;
+				stroke-dasharray: none;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-miterlimit: 4;
+				stroke-opacity: 1;
+				stroke-width: 0.25;
+			}
+			.glass {
+				fill: #ffbb00;
+			}
+			.base {
+				fill: #cdcdcc;
+			}
+			.bar {
+				fill: #ffffff;
+				fill-opacity: 0.3;
+			}
+			.whitecap {
+				fill: #e5e5e6;
+			}
+		</style>
+	</defs>
+	<g>
+		<rect class="handle" height="1.6983838" width="1.737904" x="1.4" y="1.3" />
+		<rect class="glass" height="3.3987412" width="2.4107354" x="0.16543069" y="0.41104" />
+		<rect class="base" height="0.31616199" width="2.687377" x="0" y="3.69122" />
+		<rect class="bar" height="2.25" width="0.25" x="0.65504277" y="1" />
+		<rect class="bar" height="2.25" width="0.25" x="1.2324774" y="1" />
+		<rect class="bar" height="2.25" width="0.25" x="1.8055214" y="1" />
+		<path class="whitecap" d="m 1.9043217,1.39903 c 0,0 -0.3952026,0.7904 -0.474243,0 -0.07904,-0.7904 -0.82992526,-0.82993 -1.14608728,-0.86945 -0.31616196,-0.0395 -0.19760121,-0.35568 0.27664179,-0.35568 0.47424299,0 2.60833639,-0.079 1.89697189,0.31616 -0.7113645,0.39521 -0.5532834,0.90897 -0.5532834,0.90897 z" />
+	</g>
+</svg>

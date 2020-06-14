@@ -1,0 +1,61 @@
+.tk-cookie-manager-embed-spoiler {
+	background-color: rgba(0, 0, 0, .1);
+	border: 1px solid rgba(0, 0, 0, .1);
+	cursor: pointer;
+	margin: 16px 0;
+	padding: 10px;
+	text-align: center;
+
+	.tk-cookie-manager-embed-spoiler__footer {
+		font-size: 75%;
+		margin-top: 8px;
+	}
+}
+
+.tk-cookie-manager-embedded-contents-table {
+	width: 100%;
+
+	td:last-of-type {
+		text-align: right;
+	}
+	label {
+		font-weight: normal;
+		margin: 0;
+		text-align: left;
+	}
+	input[type="checkbox"] {
+		position: absolute;
+		visibility: hidden;
+
+		& + label {
+			background-color: rgba(128, 128, 128, .25);
+			border-radius: 10px;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 0;
+			height: 20px;
+			transition: background-color .3s;
+			width: 40px;
+
+			&:before {
+				background-color: #fff;
+				border-radius: 50%;
+				content: '';
+				display: inline-block;
+				height: 18px;
+				left: 1px;
+				position: relative;
+				top: 1px;
+				transition: left .3s;
+				width: 18px;
+			}
+		}
+		&:checked + label {
+			background-color: rgba(128, 128, 128, .5);
+
+			&:before {
+				left: 21px;
+			}
+		}
+	}
+}

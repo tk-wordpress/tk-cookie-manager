@@ -1,0 +1,48 @@
+& {
+	bottom: 10vh;
+	box-shadow: 0 0 5px 0 #333;
+	left: -10px;
+	max-height: 80vh;
+	overflow-y: auto;
+	position: fixed;
+	right: -10px;
+}
+
+.tk-cookie-manager-infobox__backdrop {
+	display: none;
+}
+.tk-cookie-manager-infobox__wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 16px 0;
+
+	@include media-breakpoint-down(lg) {
+		max-width: 90vw;
+	}
+}
+
+.tk-cookie-manager-infobox__buttons {
+	display: flex;
+	flex-flow: row-reverse;
+	text-align: right;
+
+	@include media-breakpoint-down(sm) {
+		flex-flow: column;
+	}
+
+	* {
+		margin-left: 8px;
+	}
+	.tk-cookie-manager-infobox__individual-settings-button {
+		@include media-breakpoint-down(sm) {
+			padding: 0;
+		}
+	}
+}
+
+&.tk-cookie-manager-infobox--skin-light {
+	background-color: $lightBackground;
+}
+&.tk-cookie-manager-infobox--skin-dark {
+	background-color: $darkBackground;
+}

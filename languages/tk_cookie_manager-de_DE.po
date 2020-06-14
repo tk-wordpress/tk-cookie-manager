@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Manager\n"
+"POT-Creation-Date: 2020-06-14 17:30+0200\n"
+"PO-Revision-Date: 2020-06-14 17:30+0200\n"
+"Last-Translator: Timon Kreis <mail@timonkreis.de>\n"
+"Language-Team: Timon Kreis <mail@timonkreis.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tk-cookie-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: .git\n"
+"X-Poedit-SearchPathExcluded-3: .idea\n"
+"X-Poedit-SearchPathExcluded-4: .run\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/Admin/Settings.php:63 includes/Admin/Settings.php:64
+#: includes/Page.php:34 templates/admin/settings.php:30
+msgid "Cookie Manager"
+msgstr "Cookie-Manager"
+
+#: includes/Admin/Settings.php:171
+msgid "Invalid data submitted!"
+msgstr "Ungültige Daten übermittelt!"
+
+#: includes/Admin/Settings.php:227
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/Admin/Settings.php:228
+msgid "Cookie Infobox"
+msgstr "Cookie-Infobox"
+
+#: includes/Admin/Settings.php:229
+msgid "Cookie Groups & Cookies"
+msgstr "Cookie-Gruppen & Cookies"
+
+#: includes/Admin/Settings.php:230
+msgid "Embedded Contents"
+msgstr "Eingebundene Inhalte"
+
+#: includes/Admin/Settings/Fields/Cookies/Cookies.php:21
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:84
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/Admin/Settings/Fields/General/Css.php:21
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: includes/Admin/Settings/Fields/General/ImprintPage.php:20
+msgid "Imprint page"
+msgstr "Impressum-Seite"
+
+#: includes/Admin/Settings/Fields/General/PrivacyPolicyPage.php:20
+msgid "Privacy policy page"
+msgstr "Datenschutz-Seite"
+
+#: includes/Admin/Settings/Fields/Infobox/Active.php:20
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:27
+#: templates/admin/settings/fields/cookies/templates/cookie.php:22
+msgid "Is active"
+msgstr "Ist aktiv"
+
+#: includes/Admin/Settings/Fields/Infobox/Description.php:21
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:74
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:77
+#: templates/admin/settings/fields/cookies/templates/cookie.php:100
+#: templates/admin/settings/fields/cookies/templates/cookie.php:103
+#: templates/frontend/infobox/cookie-groups.php:37
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/Admin/Settings/Fields/Infobox/Headline.php:20
+msgid "Headline"
+msgstr "Überschrift"
+
+#: includes/Admin/Settings/Fields/Infobox/ImprintLink.php:20
+msgid "Imprint link"
+msgstr "Impressum-Link"
+
+#: includes/Admin/Settings/Fields/Infobox/Layout.php:20
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/Admin/Settings/Fields/Infobox/Layout.php:34
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/Admin/Settings/Fields/Infobox/Layout.php:35
+msgid "Popup"
+msgstr "Pop-Up"
+
+#: includes/Admin/Settings/Fields/Infobox/PrivacyPolicyLink.php:20
+msgid "Privacy policy link"
+msgstr "Datenschutz-Link"
+
+#: includes/Admin/Settings/Fields/Infobox/Skin.php:20
+msgid "Skin"
+msgstr "Skin"
+
+#: includes/Admin/Settings/Fields/Infobox/Skin.php:34
+msgid "Light"
+msgstr "Hell"
+
+#: includes/Admin/Settings/Fields/Infobox/Skin.php:35
+msgid "Dark"
+msgstr "Dunkel"
+
+#: includes/Shortcodes.php:34
+msgid "Adjust cookie settings"
+msgstr "Cookie-Einstellungen anpassen"
+
+#: templates/admin/donation-link.php:9
+msgid "Buy me a beer"
+msgstr "Spendiere mir ein Bier"
+
+#: templates/admin/donation-link.php:10
+msgid ", if you like this plugin."
+msgstr ", wenn dir das Plugin gefällt."
+
+#: templates/admin/page/metabox.php:12
+msgid "Disable cookie infobox for this page"
+msgstr "Cookie-Infobox auf dieser Seite deaktivieren"
+
+#: templates/admin/settings.php:39
+msgid "current"
+msgstr "aktuell"
+
+#: templates/admin/settings.php:51
+msgid "Form cannot be submitted. Please correct invalid fields first."
+msgstr ""
+"Formular kann nicht übermittelt werden. Bitte zunächst ungültige Felder "
+"korrigieren."
+
+#: templates/admin/settings/cookies.php:8
+msgid "Configuration of cookies, bundled in groups."
+msgstr "Konfiguration von Cookies, gebündelt in Gruppen."
+
+#: templates/admin/settings/embedded-contents.php:8
+msgid "Content embed settings for several platforms."
+msgstr "Einstellungen für eingebettete Inhalte für verschiedene Plattformen."
+
+#: templates/admin/settings/fields/cookies/cookies.php:10
+msgid "No cookie groups defined so far."
+msgstr "Bisher wurden keine Cookie-Gruppen definiert."
+
+#: templates/admin/settings/fields/cookies/cookies.php:18
+msgid "Add new cookie group"
+msgstr "Neue Cookiegruppe hinzufügen"
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:21
+#: templates/admin/settings/fields/cookies/templates/cookie.php:16
+msgid "Delete"
+msgstr "Löschen"
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:37
+msgid "If not active, the cookie group is not displayed."
+msgstr "Falls inaktiv, wird die Cookie-Gruppe nicht angezeigt."
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:44
+msgid "Is required"
+msgstr "Ist erforderlich"
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:54
+msgid "If true, the cookie group cannot be disabled by the visitor."
+msgstr ""
+"Falls angehakt, kann die Cookie-Gruppe vom Besucher nicht deaktiviert werden."
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:61
+#: templates/admin/settings/fields/cookies/templates/cookie.php:39
+#: templates/frontend/infobox/cookie-groups.php:35
+msgid "Name"
+msgstr "Name"
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:87
+msgid "No cookies defined so far."
+msgstr "Bisher wurden keine Cookies definiert."
+
+#: templates/admin/settings/fields/cookies/templates/cookie-group.php:92
+msgid "Add new cookie"
+msgstr "Neues Cookie hinzufügen"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:32
+msgid "If not active, the HTML is not included."
+msgstr "Falls inaktiv, wird das HTML nicht eingebunden."
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:52
+#: templates/frontend/infobox/cookie-groups.php:36
+msgid "Provider"
+msgstr "Anbieter"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:63
+msgid "Provider URL"
+msgstr "Anbieter-URL"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:75
+#: templates/frontend/infobox/cookie-groups.php:38
+msgid "Lifetime"
+msgstr "Lebensdauer"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:86
+msgid "Cookie names"
+msgstr "Cookie-Namen"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:94
+msgid "Comma-separated list of cookie names."
+msgstr "Komma-separierte Liste von Cookie-Namen."
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:111
+#: templates/admin/settings/fields/cookies/templates/cookie.php:114
+msgid "HTML"
+msgstr "HTML"
+
+#: templates/admin/settings/fields/cookies/templates/cookie.php:119
+msgid "Appended to the page when consent is given."
+msgstr "Wird der Seite hinzugefügt, wenn das Einverständnis gegeben wurde."
+
+#: templates/admin/settings/fields/embedded-contents/block-default.php:15
+#, php-format
+msgid "Block contents from %s by default."
+msgstr "Inhalte von %s standardmäßig blockieren."
+
+#: templates/admin/settings/fields/embedded-contents/youtube.php:28
+#, php-format
+msgid "Replace %s with %s."
+msgstr "Ersetze %s durch %s."
+
+#: templates/admin/settings/fields/general/css.php:13
+msgid "The CSS is added to the head on every page in the frontend."
+msgstr "Das CSS wird dem Seitenkopf auf jeder Seite im Frontend hinzugefügt."
+
+#: templates/admin/settings/fields/general/imprint-page.php:16
+#: templates/admin/settings/fields/general/privacy-policy-page.php:16
+msgid "Not set"
+msgstr "Nicht gesetzt"
+
+#: templates/admin/settings/fields/general/imprint-page.php:19
+#: templates/admin/settings/fields/general/privacy-policy-page.php:22
+msgid "Individual URL"
+msgstr "Individuelle URL"
+
+#: templates/admin/settings/fields/general/imprint-page.php:21
+#: templates/admin/settings/fields/general/privacy-policy-page.php:24
+msgid "Pages"
+msgstr "Seiten"
+
+#: templates/admin/settings/fields/general/imprint-page.php:36
+#: templates/admin/settings/fields/general/imprint-page.php:39
+#: templates/admin/settings/fields/general/privacy-policy-page.php:39
+#: templates/admin/settings/fields/general/privacy-policy-page.php:42
+msgid "Label"
+msgstr "Beschriftung"
+
+#: templates/admin/settings/fields/general/imprint-page.php:48
+msgid "An individual URL should have an associated label."
+msgstr "Eine individuelle URL benötigt eine Beschriftung."
+
+#: templates/admin/settings/fields/general/imprint-page.php:56
+#: templates/admin/settings/fields/general/imprint-page.php:59
+#: templates/admin/settings/fields/general/privacy-policy-page.php:55
+#: templates/admin/settings/fields/general/privacy-policy-page.php:58
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/settings/fields/general/privacy-policy-page.php:19
+msgid "Synchronize with WordPress"
+msgstr "Mit WordPress synchronisieren"
+
+#: templates/admin/settings/fields/infobox/active.php:15
+msgid "If not active, the cookie infobox is not displayed."
+msgstr "Falls inaktiv, wird die Cookie-Infobox nicht angezeigt."
+
+#: templates/admin/settings/fields/infobox/imprint-link.php:15
+msgid "Add a link to the imprint page at the bottom of the infobox."
+msgstr "Link zum Impressum unten in der Cookie-Infobox hinzufügen."
+
+#: templates/admin/settings/fields/infobox/privacy-policy-link.php:15
+msgid "Add a link to the privacy policy page at the bottom of the infobox."
+msgstr "Link zur Datenschutzerklärung unten in der Cookie-Infobox hinzufügen."
+
+#: templates/admin/settings/general.php:8
+msgid "General settings."
+msgstr "Allgemeine Einstellungen."
+
+#: templates/admin/settings/infobox.php:9
+msgid ""
+"The cookie infobox is shown when a visitor enters the site and does not have "
+"any existing cookie settings yet."
+msgstr ""
+"Die Cookie-Infobox wird angezeigt, wenn ein Besucher ohne Cookie-"
+"Einstellungen die Seite betritt."
+
+#: templates/frontend/embedded-contents/wrapper.php:16
+#, php-format
+msgid "Click here to accept content from %s."
+msgstr "Hier klicken, um Inhalte von %s zu akzeptieren."
+
+#: templates/frontend/embedded-contents/wrapper.php:20
+#, php-format
+msgid "Please note our <a href=\"%s\">Privacy Policy</a>."
+msgstr "Bitte berücksichtige unsere <a href=\"%s\">Datenschutzerklärung</a>."
+
+#: templates/frontend/infobox/buttons.php:8
+msgid "Accept All"
+msgstr "Alle akzeptieren"
+
+#: templates/frontend/infobox/buttons.php:11
+msgid "Save & Close"
+msgstr "Speichern & schließen"
+
+#: templates/frontend/infobox/buttons.php:14
+msgid "Individual Settings"
+msgstr "Individuelle Einstellungen"
+
+#: templates/frontend/shortcodes/embedded-contents-table.php:10
+msgid "Platform"
+msgstr "Plattform"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/tk-wordpress/tk-cookie-manager"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Inform visitors about used cookies and block scripts until consent is given. "
+"In addition, block automatically embedded external contents until visitor "
+"accepts the platform."
+msgstr ""
+"Informiere Besucher über verwendete Cookies und blockiere Skripte, bis das "
+"Einverständnis gegeben wurde. Zusätzlich kann das automatische Einbinden "
+"externer Inhalte blockiert werden, bis der Besucher sein Einverständnis für "
+"die Plattform gegeben hat."
+
+#. Author of the plugin/theme
+msgid "Timon Kreis"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.timonkreis.de/"
+msgstr ""

@@ -1,0 +1,111 @@
+#tk-cookie-manager-form {
+	@import 'admin/wordpress-reset';
+	@import 'admin/bootstrap';
+
+	#invalid-form {
+		display: none;
+	}
+	.was-validated &:invalid #invalid-form {
+		display: block;
+	}
+	.navbar .ml-auto {
+		@include media-breakpoint-down(md) {
+			text-align: right;
+			width: 100%;
+		}
+	}
+	.tk-cookie-manager__list-groups {
+		@include list-unstyled();
+
+		li {
+			margin: 0 0 2px;
+
+			.item-header {
+				background-color: #fff;
+				border: 1px solid $border-color;
+				cursor: pointer;
+				padding: .75rem 1rem .75rem 2.5rem;
+				position: relative;
+				margin: 0;
+
+				&:hover {
+					border: 1px solid #a0a5aa;
+				}
+
+				.sort-handle {
+					cursor: move;
+					left: .7rem;
+					position: absolute;
+					top: .7rem;
+				}
+				.title {
+					display: inline-block;
+					min-height: 1rem;
+				}
+				.actions-holder {
+					float: right;
+					margin-top: -.35rem;
+
+					a {
+						background-color: rgba(0, 0, 0, .025);
+						border: 1px solid #b4b9be;
+						color: #dc3232;
+						float: left;
+						height: auto;
+						padding: .25rem;
+						position: relative;
+						text-decoration: none;
+						width: auto;
+
+						&:after {
+							bottom: 0;
+							content: '';
+							height: 2px;
+							left: 0;
+							position: absolute;
+							transition: width 0s;
+							width: 100%;
+						}
+						&.dashicons-yes:after {
+							background-color: #dc3232;
+							transition: width 5s;
+							width: 0;
+						}
+						& + a {
+							border-left: 0;
+						}
+					}
+				}
+			}
+			.item-body {
+				background-color: rgba(0, 0, 0, .05);
+				border-bottom: 1px solid #b4b9be;
+				display: none;
+				padding: .75rem 1rem;
+
+				.item-body {
+					background-color: rgba(0, 0, 0, .033);
+				}
+			}
+		}
+		.ui-state--highlight {
+			background-color: rgba(0, 0, 0, .05);
+			border: 1px solid #b4b9be;
+			height: 2.75rem;
+		}
+	}
+	.button-holder {
+		margin-top: .5rem;
+	}
+	[data-template-container] {
+		display: none;
+	}
+	.CodeMirror {
+		border: 1px solid $border-color;
+		height: auto;
+
+		pre {
+			margin-bottom: 0;
+		}
+	}
+}

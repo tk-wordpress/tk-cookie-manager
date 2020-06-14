@@ -1,0 +1,79 @@
+& {
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.tk-cookie-manager-infobox__backdrop {
+	background-color: rgba(0, 0, 0, .5);
+	height: 100%;
+	left: 0;
+	pointer-events: all;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.tk-cookie-manager-infobox__wrapper {
+	align-items: center;
+	display: flex;
+	margin: 16px auto;
+	max-width: 500px;
+	min-height: calc(100% - 64px);
+	position: relative;
+	width: auto;
+
+	@include media-breakpoint-down(xs) {
+		max-width: calc(100vw - 32px);
+	}
+
+	// Specific top margin (46px + 16px) if admin bar is displayed
+	@at-root .admin-bar & {
+		margin-top: 62px;
+	}
+
+	&.tk-cookie-manager-infobox__wrapper--state-simple .tk-cookie-manager-infobox__cookie-groups {
+		text-align: center;
+	}
+	&.tk-cookie-manager-infobox__wrapper--state-advanced {
+		max-width: 800px;
+
+		@include media-breakpoint-down(md) {
+			max-width: calc(100vw - 32px);
+		}
+	}
+}
+
+.tk-cookie-manager-infobox__headline {
+	text-align: center;
+}
+.tk-cookie-manager-infobox__box {
+	box-shadow: 0 0 5px 0 #333;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 16px 32px;
+	pointer-events: all;
+	position: relative;
+	top: 50%;
+	width: 100%;
+}
+
+.tk-cookie-manager-infobox__buttons * {
+	width: 100%;
+}
+.tk-cookie-manager-infobox__individual-settings-button {
+	font-size: 14px;
+	padding: 0;
+}
+
+&.tk-cookie-manager-infobox--skin-light .tk-cookie-manager-infobox__box {
+	background-color: $lightBackground;
+}
+&.tk-cookie-manager-infobox--skin-dark .tk-cookie-manager-infobox__box {
+	background-color: $darkBackground;
+}
