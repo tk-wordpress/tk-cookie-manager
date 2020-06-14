@@ -11,6 +11,9 @@
 			"role": "Developer"
 		}
 	],
+	"license": [
+		"GPL-3.0-or-later"
+	],
 	"require": {
 		"php": ">=7.1",
 		"ext-json": "*"
