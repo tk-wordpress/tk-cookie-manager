@@ -12,7 +12,7 @@ gulp.task('styles', function() {
 	return gulp.src('public/css/**/*.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-		.pipe(autoprefixer('last 10 versions', 'ie 9'))
+		.pipe(autoprefixer())
 		.pipe(sourcemaps.write('.', {includeContent: false}))
 		.pipe(gulp.dest('public/css'));
 });

@@ -8,5 +8,9 @@
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-uglify": "^3.0.2",
 		"bootstrap": "^4.5.0"
-	}
+	},
+	"browserslist": [
+		"last 10 versions",
+		"ie 9"
+	]
 }
