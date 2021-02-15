@@ -314,11 +314,6 @@ TkCookieManager = (function(window) {
 		});
 
 		document.querySelectorAll('.tk-cookie-manager-embed-spoiler').forEach(function(element) {
-			// Trigger click event for allowed platform spoilers
-			if (self.isAllowed(element.getAttribute('data-platform'))) {
-				element.click();
-			}
-
 			// Add click event for embedded content spoilers
 			element.addEventListener('click', function(event) {
 				if (event.target.tagName.toLowerCase() !== 'a') {
@@ -334,6 +329,11 @@ TkCookieManager = (function(window) {
 					jsonContainer.remove();
 				}
 			}, false);
+
+			// Trigger click event for allowed platform spoilers
+			if (self.isAllowed(element.getAttribute('data-platform'))) {
+				element.click();
+			}
 		});
 
 		return self;
