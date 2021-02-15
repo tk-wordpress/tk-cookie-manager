@@ -10,7 +10,7 @@
  * Plugin URI:        https://github.com/tk-wordpress/tk-cookie-manager
  * Description:       Inform visitors about used cookies and block scripts until consent is given. In addition, block automatically embedded external contents until visitor accepts the platform.
  * Description:       Show cookie consent modal on page visit and control script execution.
- * Version:           1.0.0
+ * Version:           1.1.1
  * Author:            Timon Kreis
  * Author URI:        https://www.timonkreis.de/
  * Text Domain:       tk_cookie_manager
